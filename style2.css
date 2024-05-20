@@ -10,13 +10,13 @@ header{
 header h1{
   color: white;
   font-size: 40px;
-  margin-top: 0.8%;
+  margin-top: 2%;
   width: 100%;
 }
 
 body{
   background-image: url(back.jpeg);
-  background-size: 200%;
+  background-size: 360%;
   font-family: Arial, sans-serif;
 }
 
@@ -25,11 +25,12 @@ h1{
 }
 
 #quadrado-azul {
+
   padding: 20px;
   border: 5px solid rgba(255, 255, 255, 0.157);
   height: 60%; 
   background-color:rgb(34, 19, 248);
-  width: 80%;
+  width: 60%;
   position: absolute;
   top: 55%;
   left: 50%;
@@ -54,11 +55,11 @@ h1{
 a{
   color: rgb(0, 68, 255);
   text-decoration: none;  
+
 }
 
 header a{
-  display: inline;
-  margin: 0 10px;
+    margin: 0 10px;
 
 }
 
@@ -73,7 +74,7 @@ header a::after {
   display: block;
   width: 0;
   height: 2px;
-  background: #fff;
+  background: #0a1bff;
   transition: width .3s;
 }
 
@@ -96,8 +97,18 @@ header a:hover::after {
 header a {
   float: right;
   margin-top: -3%;
-  color: white;
+  color: rgb(255, 255, 255);
   
+
 }
+
+body{
+ background-size: 200%; 
+}
+
+header h1{
+  margin-top: 1%;
+}
+
 
 }
