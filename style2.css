@@ -1,0 +1,103 @@
+header{
+  background-color: rgb(34, 19, 248);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  margin-left: -8px;
+  height: 65px;
+}
+
+header h1{
+  color: white;
+  font-size: 40px;
+  margin-top: 0.8%;
+  width: 100%;
+}
+
+body{
+  background-image: url(back.jpeg);
+  background-size: 200%;
+  font-family: Arial, sans-serif;
+}
+
+h1{
+  text-align: center;
+}
+
+#quadrado-azul {
+  padding: 20px;
+  border: 5px solid rgba(255, 255, 255, 0.157);
+  height: 60%; 
+  background-color:rgb(34, 19, 248);
+  width: 80%;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius:50px;
+  display: flex;
+  flex-direction: column; /* Faz com que os itens sejam dispostos de cima para baixo */
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nome {
+  font-size: 20px;
+  color: white;
+}
+
+.nome a {
+  color: white !important;
+  text-decoration: none;
+  padding-left: 10px;
+}
+a{
+  color: rgb(0, 68, 255);
+  text-decoration: none;  
+}
+
+header a{
+  display: inline;
+  margin: 0 10px;
+
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+}
+
+header a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #fff;
+  transition: width .3s;
+}
+
+header a:hover::after {
+  width: 100%;
+  transition: width .3s;
+}
+
+
+/* Adicione mais estilos conforme necessário */
+@media (min-width: 768px) {
+  .nome{
+    font-size: 40px;
+  }
+
+  #quadrado-azul {
+ width: 50%;
+}
+
+header a {
+  float: right;
+  margin-top: -3%;
+  color: white;
+  
+}
+
+}
